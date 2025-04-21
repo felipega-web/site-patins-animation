@@ -138,6 +138,14 @@ section.hero {
         flex-direction: column-reverse;
         padding: 1.5rem 1.5rem;
         margin-bottom: 1rem;
+
+        & h1 {
+            padding: 2rem 1.5rem 1.5rem;
+        }
+
+        & .buttons {
+            margin-block: 1rem;
+        }
     }
 }
 
@@ -145,7 +153,6 @@ section.hero {
     section.hero {
         & h1 {
             font-size: 2rem;
-            padding: 1.5rem 1.5rem;
         }
 
         & h1 div {
@@ -161,7 +168,6 @@ section.hero {
             display: flex;
             flex-direction: column-reverse;
             padding-inline: 1.5rem;
-            margin-block: 1rem;
 
             & .button {
                 
