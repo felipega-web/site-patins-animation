@@ -29,6 +29,13 @@
     }
 }
 
+@media (width < 80em) {
+
+    .banner {
+        padding-block: 0;
+    }
+}
+
 @keyframes bg-gradient {
     50% {
         background-position: 100% 50%;
